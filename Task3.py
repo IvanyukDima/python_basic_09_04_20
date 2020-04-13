@@ -6,11 +6,11 @@ Ivanyuk D 10.04.2020
 Считаем 3 + 33 + 333 = 369.
 """
 #  Запрашиваем число
-num_inp = int(input("Введите число: "))
-# Преобразуем в тип сроку и расчитываем
-num1 = str(num_inp)
-num2 = str(num_inp)*2
-num3 = str(num_inp)*3
+num_inp = input("Введите число: ")
+# Преобразуем в тип сроку и раccчитываем
+num1 = num_inp
+num2 = num_inp*2
+num3 = num_inp*3
 # Считаем результат
 result = int(num1) + int(num2) + int(num3)
 
