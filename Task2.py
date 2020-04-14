@@ -6,7 +6,14 @@ Ivanyuk D 10.04.2020
 Используйте форматирование строк.
 """
 #  Запрашиваем секунды
-sec_inp = int(input("Введите время в секундах: "))
+while True:
+    sec_inp = input("Введите время в секундах: ")
+    if sec_inp.isdigit():
+        sec_inp = int(sec_inp)
+        break
+    else:
+        print('Ошибка ввода, это не число')
+
 #  Считаем часы, минуты, секунды
 hour = sec_inp // 3600
 min = (sec_inp - hour * 3600) // 60
