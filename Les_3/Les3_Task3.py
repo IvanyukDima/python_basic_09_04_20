@@ -15,7 +15,7 @@ while True:
         num3_inp = int(num3_inp)
         break
     else:
-        print('Ошибка ввода, введите натуральные числа')
+        print('Ошибка ввода, введите целые числа')
 
 
 def my_func(a1, a2, a3):
