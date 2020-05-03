@@ -1,0 +1,3 @@
+Ivanov 10
+Petrov 15
+Sidorov 25
